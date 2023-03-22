@@ -1,0 +1,43 @@
+.productos {
+    max-width: 960px; /* ajusta el ancho máximo según lo que necesites */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 30%; /* ajusta el ancho según lo que necesites */
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(83, 83, 83, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    height: 300px; /* ajusta la altura según lo que necesites */
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 10px;
+  }
+  
+  .card p {
+    margin: 10px;
+  }
+  
+  .card a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    background-color: #0069d9;
+  }
+  

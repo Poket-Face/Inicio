@@ -1,0 +1,67 @@
+body {
+  transition: background-color 0.3s ease;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.toggle-container .icon{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+#toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 35rem;
+  
+}
+
+.toggle-icon {
+  font-size: 30px;
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+#sun-icon {
+  color: #FFC107;
+  margin: 1px;
+}
+
+#moon-icon {
+  color: #607D8B;
+  margin-left: 10px;
+  opacity: 0;
+}
+
+.dark-mode #sun-icon {
+  opacity: 0;
+}
+
+.dark-mode #moon-icon {
+  opacity: 1;
+}
+
+.dark-mode #body {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+.dark-mode #navbar-brand {
+  background-color: #eee;
+  color: #000000;
+}
+
+.dark-mode #table {
+  background-color: #000000;
+  color: #000000;
+}
+

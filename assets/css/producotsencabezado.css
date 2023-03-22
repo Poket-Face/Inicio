@@ -1,0 +1,38 @@
+header {
+  background-image: url('/gif/km_20230319-1_480p_15f_20230319_223840.gif');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 500px; /* ajusta la altura según lo que necesites */
+  width: auto;
+  right: auto;
+  margin:1%;
+}
+
+.encabezado-container {
+  max-width: 960px; /* ajusta el ancho máximo según lo que necesites */
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.encabezado-imagen {
+  width: 400px; /* ajusta el ancho según lo que necesites */
+  height: 400px; /* ajusta la altura según lo que necesites */
+  background-image: url('ruta/a/la/imagen2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 3s ease-in-out;
+}
+
+.encabezado-imagen:hover {
+  transform: translateY(20px); /* ajusta la cantidad de desplazamiento según lo que necesites */
+}
+
+.navbar-brand{
+  margin: auto;
+}

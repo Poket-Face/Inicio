@@ -1,0 +1,85 @@
+/* Estilos globales */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f5ecec;
+    background-color: #0e0d0d;
+  }
+  
+  /* Encabezado */
+  
+  header {
+    padding: 20px;
+    background-color: #000000;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+    margin: 50px;
+  }
+  
+  /* Pie de página */
+  
+  footer {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Enlaces */
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fffefe;
+  }
+.card{
+  margin: 14px;
+  margin-inline: 14px;
+  color: #000000;
+  word-break: var(44px);
+  column-rule-color: 52px;
+}
+
+
+.black-box {
+  background-color: #000000;
+  background-position: 2%;
+  background-size: auto;
+  background-attachment: fixed;
+  width: auto;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+
+.content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+.content img {
+  height: 500px;
+  margin-left: 20px;
+}
+
+#How{
+margin: 3%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.separador-text{
+  margin-right: 10px;
+  margin: auto;
+}

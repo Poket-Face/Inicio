@@ -1,0 +1,55 @@
+#inicio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -40%);
+  opacity: 0;
+  animation: animacion 2s ease forwards;
+}
+#inicio {
+  color: white;
+
+}
+
+
+
+
+@keyframes animacion {
+  0% {
+    transform: translate(-50%, -40%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-40%, -50%);
+    opacity: 1;
+  }
+}
+
+#boton {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-inline: 14px;
+    margin: 1%;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 500px;
+    margin: 7 auto;
+  }
+
+#boton:hover {
+  background-color: rgb(113, 0, 219);
+}
+
+#boton a{
+  color: #fff;
+}

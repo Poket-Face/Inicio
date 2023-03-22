@@ -1,0 +1,34 @@
+#Imagin {
+    color: #103FFB;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#abc {
+font-size: 45px;
+text-align: center;
+animation: color-change 5s infinite;
+margin: 0 auto;
+margin-top: 20px;
+
+}
+
+@keyframes color-change {
+10% {
+    color: #103FFB;
+}
+25% {
+    color: #4D7FFE;
+}
+50% {
+    color: #F20CFE;
+}
+75% {
+    color: #02099A;
+}
+70% {
+    color: #103FFB;
+}
+}

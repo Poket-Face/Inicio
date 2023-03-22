@@ -1,0 +1,34 @@
+#CABEZA {
+    	color: #103FFB;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#text {
+	font-size: 45px;
+	text-align: 220px;
+	animation: color-change 5s infinite;
+    margin: 0 auto;
+    margin-top: 220px;
+
+}
+
+@keyframes color-change {
+	10% {
+		color: #103FFB;
+	}
+	25% {
+		color: #4D7FFE;
+	}
+	50% {
+		color: #F20CFE;
+	}
+	75% {
+		color: #02099A;
+	}
+	70% {
+		color: #103FFB;
+	}
+}

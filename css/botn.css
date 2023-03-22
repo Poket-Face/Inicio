@@ -1,0 +1,93 @@
+#inicio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -40%);
+    opacity: 0;
+    animation: animacion 2s ease forwards;
+  }
+  #inicio {
+    color: white;
+  
+  }
+  
+  
+  
+  
+  @keyframes animacion {
+    0% {
+      transform: translate(-50%, -40%);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-40%, -50%);
+      opacity: 1;
+    }
+  }
+  
+  #boton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+      font-size: 16px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-inline: 14px;
+  }
+  
+  .contenedor-botones {
+      display: flex;
+      justify-content: space-between; 
+      max-width: 500px;
+      margin: 7 auto;
+    }
+  
+  #boton:hover {
+    background-color: rgb(113, 0, 219);
+  }
+  
+  .container {
+    position: relative;
+    display: inline-block; /* o block, según tus necesidades */
+  }
+  
+  .btn {
+    position: absolute;
+    z-index: 1; /* un número mayor que el de la imagen */
+  }
+  
+  .btn-primary {
+    top: 50px;
+    left: 0px;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background: none;
+
+  }
+  
+  .btn-secondary {
+    top: 50px;
+    left: 10px;
+    position: absolute;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+
+  }
+
+  .btn-tersary {
+    top: 50px;
+    left: 0px;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .btn-caurtary {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    margin:auto;
+
+  }
